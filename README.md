@@ -22,4 +22,4 @@ Como Metodologia de CSS:
 
 La estructura de las carpetas del proyecto esta armada bajo la modalidad de separar en carpetas cada uno de los recursos, HTML y CSS de manera que pueda ser escalable en un futuro. Para no repetir código CSS se utilizó la metodología de BEM y de esta manera compartir estilos en común que tienen ciertos componentes y solo aplicar cambios mediante modificadores. Todo el armado del maquetado se realizó con Flexbox para poder garantizar que sea responsivo al momento de querer migrar el proyecto a Mobile.   
 
-# URL del Proyecto
+# URL del Proyecto[link](https://hackathon-challenge-one.netlify.app/)
