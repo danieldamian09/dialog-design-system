@@ -1,0 +1,15 @@
+:root{
+  --primary: #6E41E2;
+  --star: #FFD912;
+  --green: #27AE60;
+  --red: #DB524E; 
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
