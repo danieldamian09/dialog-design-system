@@ -53,6 +53,7 @@ body{
   position: absolute;
   top: 17px;
   right: 13px;
+  cursor: pointer;
 }
 
 .card__body{
