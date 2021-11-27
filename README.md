@@ -1,2 +1,2 @@
-# didalog-design-system
+# dialog-design-system
 JOBMADRID JUNIOR HACKATHON CHALLENGE 1
