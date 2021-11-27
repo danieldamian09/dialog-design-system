@@ -20,21 +20,52 @@
 <body>
   <section class="container__cards">
 
-    <!-- 1/3 -->
-    <div class="card">
+    <!-- Warning -->
+    <div class="card warning--card">
       <div class="card__close">
         <img src="../assets/img/close.png" alt="" class="img__close">
       </div>
-      <div class="card__body">
-        <div class="card__circle">
+      <div class="card__body warning--body">
+        <div class="card__circle warning">
           <img src="../assets/img/Attention.png" alt="" class="card__logo">
         </div>
         <h2 class="card__title">¡Cuidado!</h2>
         <p class="card__text">No podrás volver atrás</p>
         <div class="card__buttons">
-          <button class="card__cta_active">Borrar</button>
+          <button class="card__cta_active delete">Borrar</button>
           <button class="card__cta">Cancelar</button>
         </div>
+      </div>
+    </div>
+
+    <!-- Success -->
+    <div class="card success--card">
+      <div class="card__close">
+        <img src="../assets/img/close.png" alt="" class="img__close">
+      </div>
+      <div class="card__body success--body">
+        <div class="card__circle success">
+          <img src="../assets/img/check.png" alt="" class="card__logo">
+        </div>
+        <h2 class="card__title">¡Vamos!</h2>
+        <p class="card__text">Todo ha salido bien :)</p>
+        <div class="card__buttons">
+          <button class="card__cta_active close">Cerrar pestaña</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Error -->
+    <div class="card error--card">
+      <div class="card__close">
+        <img src="../assets/img/close.png" alt="" class="img__close">
+      </div>
+      <div class="card__body error--body">
+        <div class="card__circle error">
+          <img src="../assets/img/false.png" alt="" class="card__logo">
+        </div>
+        <h2 class="card__title">Upss</h2>
+        <p class="card__text">Algo ha pasado</p>
       </div>
     </div>
 
